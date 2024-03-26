@@ -11,8 +11,28 @@
 // .box
 //     @include box
 
-@import "resets.scss"
-@import "normalizez.scss"
+@import "reset/resets.scss"
+@import "reset/normalizez.scss"
+@import "blocks/header.sass"
+@import "blocks/_welcome-box.sass"
 
-div 
-    margin: 60px
+// переменная
+$font-family: "Geologica", sans-serif
+
+body
+    font-family: $font-family
+.container
+    margin: 0 auto
+    width: 1200px
+.button
+    border: 0
+    border-radius: 100px
+    padding: 7px 34px
+    width: 197px
+    height: 40px
+    background: #6abc23
+    font-family: $font-family
+    font-weight: 700
+    font-size: 14px
+    text-align: right
+    color: #fff

@@ -348,7 +348,116 @@ template {
 [hidden] {
   display: none; }
 
-div {
-  margin: 60px; }
+.header {
+  margin-bottom: 20px; }
+  .header__info {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between; }
+  .header__hr {
+    border: none;
+    border-top: 1px solid #a5a5a5;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px; }
+
+.info__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+.info__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.contact__icons {
+  display: flex; }
+.contact__number {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: #292929; }
+
+.icons__tg {
+  margin-right: 10px; }
+.icons__viber {
+  margin-right: 20px; }
+
+.buttons__call-back {
+  margin-right: 10px; }
+.buttons__write-us {
+  border: 1px solid #6e3708;
+  border-radius: 100px;
+  width: 168px;
+  height: 40px;
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #292929; }
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between; }
+
+.menu__item {
+  font-family: "Geologica", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #292929; }
+
+.welcome-box__title {
+  margin-top: 20px; }
+.welcome-box__container {
+  background-image: url(../img/welcome-box-bcg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+.welcome-box__advantages {
+  border-radius: 30px;
+  padding: 20px 0px 20px 30px;
+  background: #fff;
+  display: flex;
+  margin-bottom: 30px; }
+
+.title__item {
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center;
+  color: #000; }
+.title__span {
+  color: #6abc23; }
+
+.advantages__block {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+.advantages__img {
+  margin-right: 15px; }
+
+body {
+  font-family: "Geologica", sans-serif; }
+
+.container {
+  margin: 0 auto;
+  width: 1200px; }
+
+.button {
+  border: 0;
+  border-radius: 100px;
+  padding: 7px 34px;
+  width: 197px;
+  height: 40px;
+  background: #6abc23;
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
