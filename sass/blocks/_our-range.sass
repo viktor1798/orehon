@@ -1,0 +1,63 @@
+$font-family: "Geologica", sans-serif
+$background-color-box: #e9e7e7
+
+.our-range
+    &__container
+    &__title
+        margin-bottom: 20px
+    &__range-grid-box
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-template-rows: repeat(3, 1fr)
+        grid-column-gap: 20px
+        grid-row-gap: 20px
+
+.range-grid-box
+    &__range-item
+        border-radius: 20px
+        width: 285px
+        height: 440px
+        background-color: $background-color-box
+
+.range-item
+    &__info-nut
+        margin-left: 20px
+    &__img
+        margin: 20px
+
+.info-nut
+    &__name-nut-title
+        font-family: $font-family
+        font-weight: 500
+        font-size: 16px
+        color: #292929
+        margin-bottom: 20px
+
+    &__package
+        display: flex
+        align-items: center
+        margin-bottom: 8px
+    &__country-of-origin
+        display: flex
+        align-items: center
+
+.package
+    &__img
+        margin-right: 8px
+    &__text
+        font-family: $font-family
+        font-weight: 400
+        font-size: 12px
+        color: #94887d
+
+.country-of-origin
+    &__img
+        margin-right: 8px
+
+    &__text
+        font-family: $font-family
+        font-weight: 400
+        font-size: 12px
+        color: #94887d
+    &__span
+        color: #000

@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -405,24 +408,26 @@ template {
   font-size: 14px;
   color: #292929; }
 
-.welcome-box__title {
-  margin-top: 20px; }
-.welcome-box__container {
-  background-image: url(../img/welcome-box-bcg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 616px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-.welcome-box__advantages {
-  border-radius: 30px;
-  padding: 20px 0px 20px 30px;
-  background: #fff;
-  display: flex;
-  margin-bottom: 30px; }
+.welcome-box {
+  margin-bottom: 80px; }
+  .welcome-box__title {
+    margin-top: 20px; }
+  .welcome-box__container {
+    background-image: url(../img/welcome-box-bcg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  .welcome-box__advantages {
+    border-radius: 30px;
+    padding: 20px 0px 20px 30px;
+    background: #fff;
+    display: flex;
+    margin-bottom: 30px; }
 
 .title__item {
   font-weight: 500;
@@ -440,12 +445,68 @@ template {
 .advantages__img {
   margin-right: 15px; }
 
+.our-range__title {
+  margin-bottom: 20px; }
+.our-range__range-grid-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; }
+
+.range-grid-box__range-item {
+  border-radius: 20px;
+  width: 285px;
+  height: 440px;
+  background-color: #e9e7e7; }
+
+.range-item__info-nut {
+  margin-left: 20px; }
+.range-item__img {
+  margin: 20px; }
+
+.info-nut__name-nut-title {
+  font-family: "Geologica", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #292929;
+  margin-bottom: 20px; }
+.info-nut__package {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px; }
+.info-nut__country-of-origin {
+  display: flex;
+  align-items: center; }
+
+.package__img {
+  margin-right: 8px; }
+.package__text {
+  font-family: "Geologica", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #94887d; }
+
+.country-of-origin__img {
+  margin-right: 8px; }
+.country-of-origin__text {
+  font-family: "Geologica", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #94887d; }
+.country-of-origin__span {
+  color: #000; }
+
+main {
+  overflow: hidden; }
+
 body {
   font-family: "Geologica", sans-serif; }
 
 .container {
+  width: 100%;
   margin: 0 auto;
-  width: 1200px; }
+  max-width: 1200px; }
 
 .button {
   border: 0;
@@ -459,5 +520,11 @@ body {
   font-size: 14px;
   text-align: right;
   color: #fff; }
+
+.title-block {
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #292929; }
 
 /*# sourceMappingURL=style.css.map */
