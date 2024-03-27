@@ -578,6 +578,53 @@ template {
   font-size: 14px;
   color: #292929; }
 
+.our-clients__title-and-slider-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; }
+
+.slider-icon__left-arrow {
+  margin-right: 25px; }
+
+.our-clients__client-block {
+  display: flex; }
+
+.client-block__client-box {
+  background: #6abc23;
+  border-radius: 20px;
+  padding: 20px;
+  width: 387px;
+  height: 300px;
+  margin-right: 20px; }
+
+.client-box__imgs {
+  position: relative;
+  margin-bottom: 10px; }
+.client-box__title p {
+  font-family: "Geologica", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff; }
+
+.imgs__main-img {
+  border-radius: 10px;
+  width: 347px;
+  height: 210px; }
+.imgs__second-img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  background: #fff; }
+  .imgs__second-img img {
+    width: 36px;
+    height: 36px; }
+
 main {
   overflow: hidden; }
 
