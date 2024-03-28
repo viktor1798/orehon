@@ -578,10 +578,12 @@ template {
   font-size: 14px;
   color: #292929; }
 
-.our-clients__title-and-slider-icon {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px; }
+.our-clients {
+  margin-bottom: 80px; }
+  .our-clients__title-and-slider-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px; }
 
 .slider-icon__left-arrow {
   margin-right: 25px; }
