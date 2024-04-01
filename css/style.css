@@ -808,8 +808,66 @@ input[type="checkbox"]:not(:checked) + label:after {
 input[type="checkbox"]:checked + label:after {
   opacity: 1; }
 
+.footer {
+  background-color: #292929;
+  margin-top: -2px; }
+  .footer__container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between; }
+  .footer__opening-times {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .footer__legal-entity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
+.contact__icons-footer {
+  display: flex;
+  margin-bottom: 40px; }
+
+.icons-footer__tg {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px; }
+.icons-footer__viber {
+  width: 24px;
+  height: 24px; }
+
+.footer-title {
+  font-family: "Geologica", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px; }
+
+.footer-p {
+  font-family: "Geologica", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px; }
+
+.opening-times__privacy-policy a {
+  color: #c2c2c2; }
+
+.legal-entity__id-company a {
+  color: #c2c2c2; }
+.legal-entity__text-block {
+  flex: 1 1 auto; }
+
+.href {
+  font-family: "Geologica", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none; }
+
 main {
-  overflow: hidden; }
+  overflow: hidden;
+  flex: 1 1 auto; }
 
 body {
   font-family: "Geologica", sans-serif; }
