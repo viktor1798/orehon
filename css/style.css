@@ -627,6 +627,69 @@ template {
     width: 36px;
     height: 36px; }
 
+.interaction-stage {
+  margin-bottom: 100px; }
+
+.interaction-stage__title {
+  margin-bottom: 40px; }
+
+.interaction-stage__step-by-step-block {
+  position: relative;
+  display: flex;
+  justify-content: space-between; }
+.interaction-stage__hr {
+  position: absolute;
+  z-index: 4;
+  top: 40px;
+  border: none;
+  border-top: 1px dashed #6e3708;
+  width: 1170px;
+  margin: 0; }
+
+.stage-box__action-number {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9e7e7;
+  border-radius: 100px;
+  padding: 30px 43px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px; }
+  .stage-box__action-number_last {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6abc23;
+    border-radius: 100px;
+    padding: 30px 43px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px; }
+.stage-box__text-stage {
+  text-align: left; }
+
+.action-number__action {
+  font-family: "Geologica", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #292929; }
+  .action-number__action_last {
+    font-family: "Geologica", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff; }
+
+.text-stage__text {
+  font-family: "Geologica", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #292929; }
+
 main {
   overflow: hidden; }
 
