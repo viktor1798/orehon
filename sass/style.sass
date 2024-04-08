@@ -33,12 +33,14 @@ main
     overflow: hidden
     flex: 1 1 auto
 body
-    // overflow: hidden
     font-family: $font-family
+.humburger
+    // display: none
 .container
     width: 100%
     margin: 0 auto
     max-width: 1200px
+
 .button
     border: 0
     border-radius: 100px
@@ -58,3 +60,25 @@ body
     color: #292929
 .map
     width: 100%
+
+@media ( max-width:1199px  )
+    .container
+        max-width: 880px
+
+@media ( max-width:991px  )
+    .container
+        max-width: 687px
+
+@media ( max-width:768px  )
+    .container
+        max-width: 440px
+        // overflow: hidden
+
+@media ( max-width:480px  )
+    .container
+        max-width: 100%
+        overflow: hidden
+    
+@media ( max-width:320px  )
+    .container
+        
