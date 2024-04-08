@@ -1,5 +1,5 @@
 .welcome-box
-    margin-bottom: 80px 
+    margin-bottom: 80px
     &__title
         margin-top: 20px
     &__container
@@ -38,3 +38,44 @@
     &__img
         margin-right: 15px
     &__text
+
+@media ( max-width:1199px  )
+    .welcome-box
+        &__advantages
+            max-width: 835px
+    .advantages
+        &__block
+            margin-right: 10px
+        &__img
+            margin-right: 8px
+
+@media ( max-width:991px  )
+    .advantages
+        &__block
+            justify-content: left
+    .welcome-box
+        &__advantages
+            max-width: 667px
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(2, 1fr)
+            grid-column-gap: 12px
+            grid-row-gap: 16px
+
+@media ( max-width:768px  )
+    .welcome-box
+        &__advantages
+            padding-left: 10px
+            display: flex
+            flex-direction: column
+        &__container
+            height: 700px
+
+@media ( max-width:480px  )
+
+@media ( max-width:320px  )
+    .welcome-box
+        margin-bottom: 426px
+        &__advantages
+            position: absolute
+            bottom: -720px
