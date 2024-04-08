@@ -62,3 +62,64 @@ $background-color-box: #e9e7e7
         color: #94887d
     &__span
         color: #000
+
+@media ( max-width:1199px)
+    .our-range
+        &__range-grid-box
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-template-rows: repeat(4, 1fr)
+            grid-column-gap: 20px
+            grid-row-gap: 20px
+
+    .range-grid-box
+        &__range-item
+            width: 280px
+            height: 432px
+
+@media ( max-width:991px)
+    .range-grid-box
+        &__range-item
+            width: 221px
+            height: 375px
+    .range-item
+        &__info-nut
+            width: 189px
+            height: 110px
+        &__img
+            width: 189px
+            height: 197px
+
+@media ( max-width:768px  )
+    .our-range
+        &__range-grid-box
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(6, 1fr)
+            grid-column-gap: 20px
+            grid-row-gap: 20px
+
+@media ( max-width:480px  )
+    .our-range
+        &__range-grid-box
+            display: flex
+            flex-direction: column
+            align-items: center
+    .range-grid-box
+        &__range-item
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            width: 288px
+            height: 420px
+    .range-item
+        &__info-nut
+            width: 256px
+            height: 88px
+        &__img
+            width: 256px
+            height: 245px
+
+@media ( max-width:320px  )
+    .container
