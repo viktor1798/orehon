@@ -59,11 +59,16 @@ body
     font-size: 24px
     color: #292929
 .map
-    width: 100%
+    text-align: center
+    // width: 100%
+    
 
 @media ( max-width:1199px  )
     .container
         max-width: 880px
+    .map
+        width: 1199px
+
 
 @media ( max-width:991px  )
     .container
@@ -72,12 +77,9 @@ body
 @media ( max-width:768px  )
     .container
         max-width: 480px
+        overflow: hidden
+        padding: 0 5px
 
 @media ( max-width:480px  )
     .container
         max-width: 100%
-        overflow: hidden
-        padding: 0 20px
-
-    
-@media ( max-width:320px  )

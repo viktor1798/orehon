@@ -37,6 +37,10 @@ $font-family: "Geologica", sans-serif
     &__checkbox-type
         display: flex
         margin-bottom: 40px
+    &__claim-button
+        display: flex
+        align-items: center
+        justify-content: center
 
 .text-type
     &__text
@@ -59,11 +63,6 @@ $font-family: "Geologica", sans-serif
                 color: #fff
                 text-decoration: underline
                 text-decoration-skip-ink: none
-.form-group
-    &__claim-button
-        display: flex
-        align-items: center
-        justify-content: center
 
 .claim-button
     &__button
@@ -139,3 +138,127 @@ input[type="checkbox"]:not(:checked) + label:after
 
 input[type="checkbox"]:checked + label:after
     opacity: 1
+
+@media ( max-width:1199px  )
+    .form-section
+        &__left-img
+            // width: 560px
+            img
+                width: 430px
+                height: 557px
+        &__form
+            padding: 20px
+            width: 430px
+            height: 557px
+    .input
+        border-radius: 100px
+        padding: 7px 20px
+        width: 350px
+        height: 40px
+        margin-bottom: 20px
+    .form-group
+        &__checkbox-type
+            margin-bottom: 10px
+
+@media ( max-width:991px  )
+    .form-section
+        &__left-img
+            img
+                width: 338px
+                height: 536px
+        &__form
+            border-radius: 30px
+            width: 338px
+            height: 536px
+
+    .input
+        width: 278px
+        height: 40px
+        margin-bottom: 10px
+    .form-group
+        &__checkbox-type
+
+@media ( max-width:768px  )
+    .form-section
+        &__container
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__left-img
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-bottom: 20px
+            margin-right: 0px
+            img
+                border-radius: 30px
+                width: 440px
+                height: 300px
+        &__form
+            border-radius: 30px
+            width: 440px
+            height: 535px
+
+    .input
+        width: 350px
+        height: 40px
+        margin-bottom: 20px
+    .form-group
+        &__checkbox-type
+            margin-bottom: 20px
+
+@media ( max-width:480px  )
+    .form-section
+        &__left-img
+            img
+                border-radius: 20px
+                width: 288px
+                height: 200px
+        &__form
+            width: 287px
+            height: 600px
+
+    .input
+        width: 247px
+        height: 40px
+        margin-bottom: 20px
+    .form-group
+        &__checkbox-type
+            margin-bottom: 20px
+            .form-group
+        &__legend
+            font-size: 24px
+            &-p
+                font-size: 14px
+    
+    .form
+        &__form-group
+            padding: 0
+
+@media ( max-width:320px  )
+    .form-section
+        &__left-img
+            img
+                border-radius: 20px
+                max-width: 100%
+                min-height: 100%
+        &__form
+            width: 267px
+            height: 600px
+
+    .input
+        width: 227px
+        height: 40px
+        margin-bottom: 20px
+    .form-group
+        &__checkbox-type
+            margin-bottom: 20px
+            .form-group
+        &__legend
+            font-size: 24px
+            &-p
+                font-size: 14px
+    
+    .form
+        &__form-group
+            padding: 0

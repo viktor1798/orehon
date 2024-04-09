@@ -19,11 +19,13 @@ $font-family: "Geologica", sans-serif
         top: 40px
         border: none
         border-top: 1px dashed #6e3708
-        width: 1170px
+        width: 1150px
         margin: 0
 
 .step-by-step-block
     &__stage-box
+        width: 125px
+        height: 160px
 
 .stage-box
     &__action-number
@@ -71,3 +73,86 @@ $font-family: "Geologica", sans-serif
         font-weight: 500
         font-size: 16px
         color: #292929
+
+@media ( max-width:1199px  )
+    .interaction-stage
+        &__hr
+            width: 830px
+
+@media ( max-width:991px  )
+    .interaction-stage
+        &__hr
+            width: 620px
+    .stage-box
+        &__action-number
+            padding: 0
+            width: 60px
+            height: 60px
+            &_last
+                padding: 0
+                width: 60px
+                height: 60px
+
+@media ( max-width:768px  )
+    .interaction-stage
+        &__step-by-step-block
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+    .step-by-step-block
+        &__stage-box
+            display: flex
+            width: 100%
+            height: 60px
+            margin-bottom: 20px
+    .stage-box
+        &__action-number
+            margin-right: 15px
+        &__text-stage
+            display: flex
+            justify-content: center
+            align-items: center
+        &__action-number
+            &_last
+                margin-right: 15px
+    .interaction-stage
+        &__hr
+            transform: rotate(90deg)
+            width: 350px
+            left: -145px
+            top: 190px
+
+@media ( max-width:480px  )
+    .stage-box
+        &__action-number
+            padding: 15px
+            width: 40px
+            height: 40px
+            &_last
+                padding: 15px
+                width: 40px
+                height: 40px
+    .step-by-step-block
+        &__stage-box
+            height: 40px
+    .action-number
+        &__action
+            font-size: 20px
+            &_last
+                font-size: 20px
+    .stage-box
+        &__action-number
+            margin-right: 7px
+
+        &__action-number
+            &_last
+                margin-right: 7px
+
+    .interaction-stage
+        &__hr
+            transform: rotate(90deg)
+            width: 260px
+            left: -110px
+            top: 140px
+
+@media ( max-width:320px  )

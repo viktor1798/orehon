@@ -30,3 +30,30 @@ $font-family: "Geologica", sans-serif
         font-weight: 300
         font-size: 14px
         color: #292929
+
+@media ( max-width:1199px  )
+
+@media ( max-width:991px  )
+
+@media ( max-width:768px  )
+    .work-with-us
+        &__advantages-box
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-template-rows: repeat(2, 1fr)
+            grid-column-gap: 16px
+            grid-row-gap: 50px
+    .advantages-box
+        &__blocks
+            width: 212px
+            height: 178px
+@media ( max-width:480px  )
+    .advantages-box
+        &__blocks
+            width: 140px
+            height: 180px
+@media ( max-width:320px)
+    .advantages-box
+        &__blocks
+            width: 50px
+            height: 230px
