@@ -1339,6 +1339,100 @@ input[type="checkbox"]:checked + label:after {
   text-decoration: underline;
   text-decoration-skip-ink: none; }
 
+@media (max-width: 1199px) {
+  .footer__img {
+    margin-right: 20px; } }
+@media (max-width: 991px) {
+  .footer__contact {
+    margin-right: 20px; }
+  .footer__opening-times {
+    margin-right: 20px; } }
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 40px; }
+    .footer__container {
+      height: 344px;
+      position: relative; }
+    .footer__opening-times {
+      width: 160px;
+      height: 55px; }
+    .footer__legal-entity {
+      position: absolute;
+      top: 120px;
+      right: 0px;
+      width: 160px;
+      height: 101px; }
+
+  .footer__img {
+    margin-right: 50px; }
+
+  .contact__call-back-footer {
+    position: absolute;
+    left: 90px; }
+
+  .opening-times__privacy-policy {
+    position: absolute;
+    bottom: 58.8px;
+    left: 100px; } }
+@media (max-width: 480px) {
+  .footer__contact {
+    position: absolute;
+    top: 60px;
+    left: 20px; }
+  .footer__opening-times {
+    position: absolute;
+    left: 240px; }
+  .footer__legal-entity {
+    left: 240px; }
+
+  .footer__img {
+    margin-right: 50px;
+    margin-left: 20px; }
+
+  .contact__call-back-footer {
+    position: absolute;
+    left: 0px;
+    bottom: -10px; }
+
+  .opening-times__privacy-policy {
+    position: relative;
+    top: 210px;
+    left: 0;
+    bottom: -100px; }
+
+  .legal-entity__id-company {
+    position: relative;
+    top: 40px; } }
+@media (max-width: 410px) {
+  .footer {
+    padding: 10px; }
+    .footer__container {
+      position: static;
+      flex-direction: column;
+      align-items: center;
+      height: 570px; }
+    .footer__contact {
+      position: static;
+      margin-left: 10px;
+      width: 100%; }
+    .footer__opening-times {
+      margin-left: 10px;
+      position: static;
+      width: 100%; }
+    .footer__legal-entity {
+      margin-left: -10px;
+      position: static;
+      width: 100%;
+      padding-bottom: 140px; }
+
+  .contact__call-back-footer {
+    position: static; }
+
+  .opening-times__privacy-policy {
+    position: static; }
+
+  .legal-entity__id-company {
+    position: static; } }
 main {
   overflow: hidden;
   flex: 1 1 auto; }
@@ -1370,12 +1464,15 @@ body {
   font-size: 24px;
   color: #292929; }
 
-.map inframe {
-  width: 1800px; }
+.map {
+  text-align: center; }
 
 @media (max-width: 1199px) {
   .container {
-    max-width: 880px; } }
+    max-width: 880px; }
+
+  .map {
+    width: 1199px; } }
 @media (max-width: 991px) {
   .container {
     max-width: 687px; } }
